@@ -153,10 +153,6 @@
 }
 
 .header-logo {
-  .logo {
-    width: 146px;
-  }
-
   @include sm {
     margin: 15px 0;
   }
@@ -1071,8 +1067,7 @@
 
   .logo {
     max-width: 150px;
-    width: 146px;
-    height: auto;
+    width: 100%;
     @include respond-below(md) {
       max-width: 100px;
     }
