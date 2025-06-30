@@ -1067,7 +1067,8 @@
 
   .logo {
     max-width: 150px;
-    width: 100%;
+    width: 146px;
+    height: auto;
     @include respond-below(md) {
       max-width: 100px;
     }
